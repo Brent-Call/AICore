@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0 - Initial release
+Date: 16. 02. 2023
+Major Features
+    - AI cores consume electricity & provide a force-wide bonus to research productivity.
+    - There is 1 technology which increases the effectiveness of AI cores.
+Minor Features
+    - Per-map settings to set how strong you want AI cores to be.
+    - Per-player settings to set display precision in the AI cores GUI.
