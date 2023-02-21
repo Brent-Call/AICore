@@ -1,8 +1,9 @@
 {
 	"name":"AICore",
-	"version":"1.0.0",
+	"version":"1.0.1",
 	"title":"Q's AI Core Mod",
 	"author":"Q",
+	"homepage":"https://forums.factorio.com/viewtopic.php?f=190&t=105266",
 	"description":"Adds a new building, the AI core.  Accumulates a bonus to research productivity over time as long as it is powered.",
 	"factorio_version": "1.1"
 }
