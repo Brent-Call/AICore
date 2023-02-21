@@ -502,7 +502,7 @@ script.on_event( defines.events.on_gui_click, function( event )
 	end
 end )
 script.on_event( defines.events.on_gui_closed, function( event )
-	if event.gui_type == defines.gui_type.custom and event.element.name == TOP_LEVEL_ENTITY_GUI_ELEMENT then
+	if event.gui_type == defines.gui_type.custom and event.element and event.element.name == TOP_LEVEL_ENTITY_GUI_ELEMENT then
 		local player = game.players[ event.player_index ]
 		entityGUI.destroy( player )
 		player.play_sound{ path = AI_CORE_CLOSE_SFX_PATH }
